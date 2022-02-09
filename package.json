@@ -1,0 +1,28 @@
+{
+  "name": "clean-code-arch-course",
+  "version": "1.0.0",
+  "description": "Rodrigo Branas' clean code and clean architecture course exercises",
+  "main": "index.js",
+  "scripts": {
+    "tsc:init": "tsc --init",
+    "build": "tsc",
+    "test": "tsc && jest dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gab0gomes/clean-code-arch-course.git"
+  },
+  "author": "Gabriel Gomes (gabrielrafael2508@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gab0gomes/clean-code-arch-course/issues"
+  },
+  "homepage": "https://github.com/gab0gomes/clean-code-arch-course#readme",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.1"
+  }
+}
